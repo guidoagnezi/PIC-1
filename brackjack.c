@@ -24,11 +24,21 @@ int main()
         }
     }
 
-    while (1)
-    {
-
+    while(1){
+        printf("\n\t\t### BEM VINDO AO 21 ###\n\n Comandos: 'c' para comprar uma carta, 'p' para passar a vez\n\n\t  Envie qualquer INPUT para continuar\n\n");
         scanf("%c", &comando);
         scanf("%*c");
+        printf("GAME START!\n");
+        break;
+    }
+
+    while (1)
+    {
+        
+        scanf("%c", &comando);
+        scanf("%*c");
+        printf("\n");
+
         vocePassou = 0;
         COMpassou = 0;
         if (comando == 'c')
@@ -49,11 +59,15 @@ int main()
         if (maoCOM > 21 || suaMao == 21)
         {
             printf("Voce ganhou!\n");
+            printf("Soma da sua mao: %d\n", suaMao);
+            printf("Soma da mao do adversário: %d\n", maoCOM);
             break;
         }
         if (suaMao > 21 || maoCOM == 21)
         {
             printf("Voce perdeu!\n");
+            printf("Soma da sua mao: %d\n", suaMao);
+            printf("Soma da mao do adversário: %d\n", maoCOM);
             break;
         }
 

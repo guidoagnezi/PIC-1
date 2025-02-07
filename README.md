@@ -33,4 +33,9 @@ Para reproduzir a versão despida do projeto, basta seguir o esquemático presen
 Posicione o Servo dispensador de fichas de maneira que empurre sem esforços suas fichas de aposta.
 Se preferir, pode adicionar resistores conectando o terminal esquerdo inferior dos botões ao GND.
 
+## Arquivos
+
+Blackjack.ino -> código a ser compilado no arduino.
+Blackjack.c -> demonstração do código em C
+
 

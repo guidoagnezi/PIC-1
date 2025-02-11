@@ -1,7 +1,7 @@
 
 # Blackjack no Arduino
 
-Simulação de uma jogatina de Blackjack (ou 21) no arduino, com possibilidade de jogar em Jogador contra Máquina ou Jogador contra Jogador.
+Simulação de uma jogatina de Blackjack (ou 21) no arduino, com possibilidade de jogar em Jogador contra Máquina ou Jogador contra Jogador e apostas com fichas.
 
 ## Como jogar
 

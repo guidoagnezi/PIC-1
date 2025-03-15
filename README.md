@@ -16,26 +16,26 @@ A vez de cada jogador vai alternando até um deles atingir exatamente 21, ganhan
 Os jogadores podem depositar, a qualquer momento, suas apostas (fichas) na caixa de arrecadação, as quais no fim da partida serão liberadas e direcionadas ao jogador vencedor.
 
 ## Materiais
-- Arduino Uno
-- Protoboard (para auxílio)
-- 2 Micro Servo 9g
-- LCD 16x2
-- 2 botões push
-- Interruptor
-- Fonte de alimentação
-- Resistor 220 ohms
-- Resistores para os botões push (opcional, resistência menor que 1k ohm)
-- Fichas de aposta (qualquer disquinho serve)
+- Arduino Uno;
+- Protoboard (para auxílio);
+- 1 Micro Servo 9g;
+- LCD 16x2;
+- Módulo 12C para LCD;
+- 2 botões push;
+- Fonte de alimentação;
+- Resistor 220 ohms;
+- Resistores 10k ohm para os botões push;
+- Fichas de aposta (qualquer disquinho serve).
 
 ## Como montar
 
 Para reproduzir a versão despida do projeto, basta seguir o esquemático presente no arquivo "Blackjack no Arduino.png".
 Posicione o Servo dispensador de fichas de maneira que empurre sem esforços suas fichas de aposta.
-Se preferir, pode adicionar resistores conectando o terminal esquerdo inferior dos botões ao GND.
 
 ## Arquivos
 
 Blackjack.ino -> código a ser compilado no arduino.
-Blackjack.c -> demonstração do código em C
+BlackjackLITE.ino -> código a ser compilado no arduino, versão com apenas as funções essnciais e usada na versão final do projeto.
+Blackjack.c -> demonstração do código em C.
 
 

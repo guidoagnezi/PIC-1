@@ -29,7 +29,7 @@ Os jogadores podem depositar, a qualquer momento, suas apostas (fichas) na caixa
 
 ## Como montar
 
-Para reproduzir a versão despida do projeto, basta seguir o esquemático presente no arquivo "Blackjack no Arduino.png".
+Para reproduzir a versão despida do projeto, basta seguir o esquemático presente no arquivo "Esquematico.png".
 Posicione o Servo dispensador de fichas de maneira que empurre sem esforços suas fichas de aposta.
 
 ## Arquivos

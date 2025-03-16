@@ -3,6 +3,11 @@
 
 Simulação de uma jogatina de Blackjack (ou 21) no arduino, com possibilidade de jogar em Jogador contra Máquina ou Jogador contra Jogador e apostas com fichas.
 
+## Dependências
+
+São necessárias as bibliotecas Servo e LiquidCrystal I2C.
+LiquidCrystal I2C pode ser encontrada [aqui](https://github.com/johnrickman/LiquidCrystal_I2C.git).
+
 ## Como jogar
 
 Na tela inicial, aperte o Botão A para iniciar uma partida Jogador contra Maquina, ou o Botão B para Jogador contra Jogador.
@@ -23,19 +28,23 @@ Os jogadores podem depositar, a qualquer momento, suas apostas (fichas) na caixa
 - Módulo 12C para LCD;
 - 2 botões push;
 - Fonte de alimentação;
-- Resistor 220 ohms;
 - Resistores 10k ohm para os botões push;
 - Fichas de aposta (qualquer disquinho serve).
 
 ## Como montar
 
-Para reproduzir a versão despida do projeto, basta seguir o esquemático presente no arquivo "Esquematico.png".
+Para reproduzir a versão despida do projeto, basta seguir o esquemático: ![alt text](blob:https://imgur.com/87c8a0b1-bfe3-4d07-acc5-81698fd65bef)
 Posicione o Servo dispensador de fichas de maneira que empurre sem esforços suas fichas de aposta.
+O arquivo do esquemático está presente em "Esquematico.png".
 
 ## Arquivos
 
 Blackjack.ino -> código a ser compilado no arduino.
-BlackjackLITE.ino -> código a ser compilado no arduino, versão com apenas as funções essnciais e usada na versão final do projeto.
+BlackjackLITE.ino -> código a ser compilado no arduino, versão com apenas as funções essnciaise e USADA NA VERSÃO FINAL DO PROJETO.
 Blackjack.c -> demonstração do código em C.
+
+## Demonstração
+
+Clique [aqui](https://youtu.be/KD_sZj5_Vy8?si=skKnGZae9wSjmE3Z) para ser redirecionado ao vídeo de apresentação do projeto no YouTube.
 
 

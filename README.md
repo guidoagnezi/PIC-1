@@ -1,7 +1,7 @@
 
 # Blackjack no Arduino
 
-Simulação de uma jogatina de Blackjack (ou 21) no arduino, com possibilidade de jogar em Jogador contra Máquina ou Jogador contra Jogador e apostas com fichas.
+Simulação de uma jogatina de Blackjack (ou 21) no arduino, com possibilidade de jogar Jogador contra Máquina ou Jogador contra Jogador e apostar com fichas.
 
 ## Dependências
 
@@ -33,18 +33,18 @@ Os jogadores podem depositar, a qualquer momento, suas apostas (fichas) na caixa
 
 ## Como montar
 
-Para reproduzir a versão despida do projeto, basta seguir o esquemático: ![alt text](blob:https://imgur.com/87c8a0b1-bfe3-4d07-acc5-81698fd65bef)
+Para reproduzir a versão despida do projeto, basta seguir o esquemático: ![esquematico](Esquematico.png)
 Posicione o Servo dispensador de fichas de maneira que empurre sem esforços suas fichas de aposta.
 O arquivo do esquemático está presente em "Esquematico.png".
 
 ## Arquivos
 
 Blackjack.ino -> código a ser compilado no arduino.
-BlackjackLITE.ino -> código a ser compilado no arduino, versão com apenas as funções essnciaise e USADA NA VERSÃO FINAL DO PROJETO.
+BlackjackLITE.ino -> código a ser compilado no arduino, versão com apenas as funções essenciais e USADA NA VERSÃO FINAL DO PROJETO.
 Blackjack.c -> demonstração do código em C.
 
 ## Demonstração
 
-Clique [aqui](https://youtu.be/KD_sZj5_Vy8?si=skKnGZae9wSjmE3Z) para ser redirecionado ao vídeo de apresentação do projeto no YouTube.
+[Aqui](https://youtu.be/KD_sZj5_Vy8?si=skKnGZae9wSjmE3Z) está contido o link para o vídeo demonstração no YouTube.
 
 
